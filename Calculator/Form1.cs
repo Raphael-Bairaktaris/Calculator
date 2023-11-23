@@ -34,7 +34,7 @@ namespace Calculator
         /// <param name="e">The event arguments</param>
         private void DeleteButton_Click(object sender, EventArgs e)
         {
-            // 
+            // Delete the value after selected position
             DeleteTextValue();
 
             // Focus the input text
@@ -46,12 +46,13 @@ namespace Calculator
         #region Number Methods
 
         /// <summary>
-        /// This is the zero button input
+        /// Adds the 0 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberZeroButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("0");
 
             // Focus the user input text
@@ -59,12 +60,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the one button input
+        /// Adds the 1 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberOneButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("1");
 
             // Focus the user input text
@@ -72,12 +74,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the two button input
+        /// Adds the 2 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberTwoButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("2");
 
             // Focus the user input text
@@ -85,12 +88,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the three button input
+        /// Adds the 3 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberThreeButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("3");
 
             // Focus the user input text
@@ -98,12 +102,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the four button input
+        /// Adds the 4 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberFourButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("4");
 
             // Focus the user input text
@@ -111,12 +116,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the five button input
+        /// Adds the 5 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberFiveButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("5");
 
             // Focus the user input text
@@ -124,12 +130,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the six button input
+        /// Adds the 6 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberSixButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("6");
 
             // Focus the user input text
@@ -137,12 +144,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the seven button input
+        /// Adds the 7 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberSevenButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("7");
 
             // Focus the user input text
@@ -150,12 +158,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the eight button input
+        /// Adds the 8 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberEightButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("8");
 
             // Focus the user input text
@@ -163,12 +172,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the nine button input
+        /// Adds the 9 character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void NumberNineButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("9");
 
             // Focus the user input text
@@ -176,12 +186,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the dot button input
+        /// Adds the . character to the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void PointButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue(".");
 
             // Focus the user input text
@@ -193,12 +204,13 @@ namespace Calculator
         #region Operator Methods
 
         /// <summary>
-        /// This is the percent operator button
+        /// Adds the percent character to the text at the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event arguments</param>
         private void PercentButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("%");
 
             // Focus the user input text
@@ -206,12 +218,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the divide operator button
+        /// Adds the divide character to the text at the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event argument</param>
         private void DivideButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("/");
 
             // Focus the user input text
@@ -219,12 +232,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the multiply operator button
+        /// Adds the multiply character to the text at the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event arguments</param>
         private void MultiplyButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("*");
 
             // Focus the user input text
@@ -232,12 +246,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the minus operator button
+        /// Adds the minus character to the text at the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event arguments</param>
         private void MinusButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("-");
 
             // Focus the user input text
@@ -245,12 +260,13 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the plus operator button
+        /// Adds the plus character to the text at the currently selected position
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event arguments</param>
         private void PlusButton_Click(object sender, EventArgs e)
         {
+            // Insert the value in the user input text box at the currently selected position
             InsertTextValue("+");
 
             // Focus the user input text
@@ -258,7 +274,7 @@ namespace Calculator
         }
 
         /// <summary>
-        /// This is the equal operator button
+        /// Calculatess the given equation in the user input
         /// </summary>
         /// <param name="sender">The event sender</param>
         /// <param name="e">The event arguments</param>
@@ -326,6 +342,12 @@ namespace Calculator
 
             // Delete the character to the right of the selection
             this.UserInputTextBox.Text = this.UserInputTextBox.Text.Remove(this.UserInputTextBox.SelectionStart, 1);
+
+            // Restore the selection
+            this.UserInputTextBox.SelectionStart = selectionStart;
+
+            // Set selection length to zero
+            this.UserInputTextBox.SelectionLength = 0;
         }
 
         #endregion
